@@ -24,8 +24,6 @@ public class Parser {
 
     public Expression makeExpression(String input) {
         Parsehandler handler = new Parsehandler(input);
-        // String myInput = input;
-        // int myCurrentPosition = 0; // NEW LINE
         Expression result = parseExpression(handler);
         handler.skipWhiteSpace();
         if (handler.notAtEndOfString()) {

@@ -48,10 +48,8 @@ public class Model
         // evaluate at each pixel
         for (int imageY = 0; imageY < size.height; imageY++)
         {
-            double evalY = imageToDomainScale(imageY, size.height);
             for (int imageX = 0; imageX < size.width; imageX++)
             {
-                double evalX = imageToDomainScale(imageX, size.width);
                 float xIndex = ((float) imageX / 200) - 1;
                 float yIndex = ((float) imageY / 200) - 1;
                 result.setColor(imageX, imageY,

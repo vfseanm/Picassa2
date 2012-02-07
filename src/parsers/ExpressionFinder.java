@@ -17,7 +17,6 @@ import model.expressions.Xexp;
 import model.expressions.Xfloor;
 import model.expressions.Xif;
 import model.expressions.Xlet;
-import model.expressions.XletVariable;
 import model.expressions.Xlog;
 import model.expressions.Xmax;
 import model.expressions.Xmin;

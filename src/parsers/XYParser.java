@@ -24,7 +24,6 @@ public class XYParser implements GenericParser {
         expMatcher.find(handler.getPosition());
         String variableName = handler.getInput().substring(expMatcher.start(),
                 expMatcher.end());
-        // System.out.println(variableName);
         handler.incPosition();
 
         if (variableName.contentEquals("x"))
